@@ -9,6 +9,11 @@
 <h2 align="center"> hey there
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h2>
+<div id="about">
+  <p>"Hmm, I see, it's just a regular scheduler and I'm not interested in it" , - you might think after reading the name of my app.</p>
+  
+</div>
+
 
 
 
