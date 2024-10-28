@@ -1,0 +1,122 @@
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(51%2c 185%2c 238%2c 1)'%3e%3c/rect%3e%3cpath d='M290.78 580.12C461.97 574 584.4 309.38 917.26 302.58 1250.12 295.78 1381.23 130.58 1543.74 128.98' stroke='rgba(93%2c 188%2c 243%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M254.24 615.66C366.11 609.95 451.22 413.14 653.7 412.69 856.17 412.24 853.42 482.69 1053.15 482.69 1252.88 482.69 1351.22 412.95 1452.61 412.69' stroke='rgba(93%2c 188%2c 243%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M234.08 660.77C394.41 627.89 455.48 220.61 712.48 213.9 969.48 207.19 951.68 283.9 1190.89 283.9 1430.09 283.9 1548.42 214.09 1669.29 213.9' stroke='rgba(93%2c 188%2c 243%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M486.2 596.7C662.87 577.03 772.49 189.31 1068.37 188.44 1364.25 187.57 1496.99 381.83 1650.54 384.44' stroke='rgba(93%2c 188%2c 243%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M155.4 569.11C326.32 565.62 458.54 343.74 798.84 337.54 1139.14 331.34 1272.87 127.48 1442.28 124.74' stroke='rgba(93%2c 188%2c 243%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  color: #f8fefd;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.List {
+  font-family: "Figtree", sans-serif;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.Assistant {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 40%;
+  padding: 20px;
+  border-radius: 20px 20px 0px 20px;
+  border: 2px solid #ffd581;
+  background-color: rgba(93, 188, 243, 1);
+}
+
+.assistantText {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Figtree", sans-serif;
+}
+
+.Input {
+  font-size: 22px;
+  font-family: "Figtree", sans-serif;
+  width: 60%;
+  text-align: center;
+}
+
+.plansContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Add {
+  width: 40%;
+  background-color: rgba(93, 188, 243, 1);
+  border: 2px solid #ffd581;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-family: "Figtree", sans-serif;
+  color: #f8fefd;
+}
+
+.Color {
+  text-decoration: line-through 4px #ffd581;
+  background-color: rgba(93, 188, 243, 1);
+  width: 60%;
+  font-weight: lighter;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Figtree", sans-serif;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.Icon {
+  margin-right: 15px;
+}
+
+.Time {
+  font-size: 40px;
+  font-family: "Figtree", sans-serif;
+  font-weight: bolder;
+}
+
+@media (max-width:500px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .List {
+    font-size: 50px;
+  }
+
+  .Time {
+    font-size: 30px;
+  }
+
+  .Assistant {
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 70%;
+    padding: 20px;
+  }
+
+  .Input, .Add, .Color {
+    width: 80%;
+  }
+}
+
