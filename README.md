@@ -8,6 +8,11 @@
   <img src="https://img.shields.io/badge/JavaScript-yellow" alt="JavaScript">
   <img src="https://img.shields.io/badge/Deployed-Netlify-success" alt="Netlify">
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/mobile-friendly-blue" alt="Mobile Friendly">
+  <img src="https://img.shields.io/badge/localStorage-enabled-green" alt="localStorage">
+  <img src="https://img.shields.io/badge/vanilla-js-yellow" alt="Vanilla JS">
+</p>
 
 <p align="center">
   <img src="todo-demo.gif" alt="To-Do List Demo" width="700">
@@ -17,15 +22,10 @@
   <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=grey" alt="" width="130px"/>
 </div>
 
-## 📱 Mobile Friendly / Responsive
+## 📱 Responsive Design 
 
-Alle Projekte sind vollständig responsive und für folgende Geräte optimiert:
-
-- Desktop
-- Tablet
-- Mobile
-
-Layouts, Menüs und interaktive Elemente passen sich automatisch an verschiedene Bildschirmgrößen an, um eine optimale Benutzererfahrung auf Smartphones und Tablets zu gewährleisten.
+Diese To‑Do‑List‑App ist mobilfreundlich und für verschiedene Bildschirmgrößen optimiert.  
+Die Benutzeroberfläche passt sich automatisch an Desktop, Tablet und Smartphone an.
 
 ---
 
@@ -68,10 +68,10 @@ Dynamische UI-Aktualisierung
 ---
 
 ## 🚀 Mögliche Erweiterungen 
-Drag & Drop für Aufgaben-Reihenfolge
-Kategorien oder Prioritäten
-Filter für erledigte/nicht erledigte Aufgaben
-Verbesserung der mobilen Darstellung
+- Drag & Drop zur Reihungsänderung von Aufgaben
+- Kategorien oder Prioritäten einführen
+- Filter (Alle / Aktiv / Erledigt) hinzufügen
+- Responsives Layout mit besseren Breakpoints verbessern
 
 ---
 
@@ -95,6 +95,11 @@ Dieses Projekt kann zu Lern- und Übungszwecken verwendet werden.
   <img src="https://img.shields.io/badge/JavaScript-yellow" alt="JavaScript">
   <img src="https://img.shields.io/badge/Deployed-Netlify-success" alt="Netlify">
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/mobile-friendly-blue" alt="Mobile Friendly">
+  <img src="https://img.shields.io/badge/localStorage-enabled-green" alt="localStorage">
+  <img src="https://img.shields.io/badge/vanilla-js-yellow" alt="Vanilla JS">
+</p>
 
 <p align="center">
   <img src="todo-demo.gif" alt="To-Do List Demo" width="700">
@@ -102,15 +107,10 @@ Dieses Projekt kann zu Lern- und Übungszwecken verwendet werden.
 
 ---
 
-## 📱 Mobile Friendly / Responsive
+## 📱 Responsive Design 
 
-All projects are fully responsive and optimized for:
-
-- Desktop
-- Tablet
-- Mobile
-
-This means layouts, menus, and interactive elements adapt to different screen sizes, ensuring a smooth experience on phones and tablets.
+This To‑Do List app is mobile‑friendly and optimized for different screen sizes.  
+The user interface adjusts automatically for desktop, tablet and smartphone.
 
 ---
 
@@ -154,10 +154,10 @@ The app demonstrates basic DOM manipulation, event handling, and working with lo
 ---
 
 ## 🚀 Future Improvements 
-- Drag & Drop to reorder tasks
-- Categories or priorities
-- Filter completed/uncompleted tasks
-- Improve mobile responsiveness
+- Add drag & drop to reorder tasks
+- Add categories or priorities
+- Add filters (All / Active / Completed)
+- Improve responsive layout with better breakpoints
 
 ---
 
